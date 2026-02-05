@@ -1,0 +1,123 @@
+.hero {
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(13, 110, 253, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 90% 20%, rgba(32, 201, 151, 0.18), transparent 55%),
+    #0b0f16;
+}
+
+.text-accent {
+  color: #8ab4ff;
+}
+
+.section {
+  background: #0f1420;
+  color: #e8eefc;
+}
+
+.section-alt {
+  background: #0b0f16;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.fake-ui {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.fake-line {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  margin-bottom: 10px;
+}
+
+.fake-tile {
+  height: 70px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fake-tile.tall {
+  height: 120px;
+}
+
+.feature-card,
+.step-card,
+.cta {
+  background: rgba(255, 255, 255, 0.04);
+  color: #e8eefc;
+  border-radius: 18px;
+}
+
+.icon-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(13, 110, 253, 0.18);
+  border: 1px solid rgba(13, 110, 253, 0.25);
+}
+
+.step-n {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+}
+
+.footer {
+  background: #0b0f16;
+  color: #e8eefc;
+}
+.tech-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateY(-4px);
+  }
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 36px;
+
+  &.tech-icon-angular {
+    background: rgba(221, 29, 26, 0.15);
+    color: #dd1d1a;
+  }
+
+  &.tech-icon-typescript {
+    background: rgba(43, 116, 217, 0.15);
+    color: #2b74d9;
+  }
+
+  &.tech-icon-node {
+    background: rgba(51, 153, 51, 0.15);
+    color: #339933;
+  }
+}
